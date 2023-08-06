@@ -1,20 +1,15 @@
-import { getItemsInCart, setItemsInCart } from "@/redux/cartSlice";
-import { useSelector, useDispatch } from "react-redux";
+import Link from "next/link";
 
-export default function Home() {
-  const itemsInCart: any = useSelector(getItemsInCart);
-  const dispatch = useDispatch();
-
-  const addItemsToCart = () => {
-    dispatch(setItemsInCart(parseInt(itemsInCart) + 1));
-  };
-
+const Home = () => {
   return (
-    <>
-      <h2>Items in Cart : {itemsInCart}</h2>
-      <button value="Add" type="button" onClick={addItemsToCart}>
-        Add
-      </button>
-    </>
+    <div>
+      <h1>Welcome to My Next.js App with Redux!</h1>
+      <p>
+        This is a simple example of using Next.js with Redux and TypeScript.
+      </p>
+      <Link href="/Counter">Go to Counter Page</Link>
+    </div>
   );
-}
+};
+
+export default Home;

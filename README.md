@@ -1,7 +1,9 @@
 # Next.js Redux Template Typescript
+
 ## Getting Started
 
 ### Install Dependencies
+
 ```bash
 yarn install
 ```

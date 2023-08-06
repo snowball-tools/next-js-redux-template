@@ -1,6 +1,12 @@
 {
   "name": "next-js-redux-template",
+  "description": "A Next.js template with Redux and TypeScript",
+  "author": {
+    "name": "Snowball Tools Inc.",
+    "email": "viv@snowballtools.xyz"
+  },
   "version": "0.1.0",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "next dev",

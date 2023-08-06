@@ -1,4 +1,3 @@
-// pages/Counter.tsx
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "@/store/store";
 import { increment, decrement } from "@/store/counterSlice";
